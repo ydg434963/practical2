@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
 
 int main() {
 
@@ -14,16 +14,21 @@ int main() {
     cout << "Введите значение: ";
     cin >> choice;
 
-    if (choice == 1)
+    if (choice == 1) {
         cout << "Сейчас лето, можно купаться и отдыхать на солнце.";
-    else if (choice == 2)
+    }
+    else if (choice == 2) {
         cout << "Сейчас осень, следует одеться тепло и взять с собой зонт.";
-    else if (choice == 3)
+    }
+    else if (choice == 3) {
         cout << "Сейчас зима, нужно надеть шапку и тёплое пальто.";
-    else if (choice == 4)
+    }
+    else if (choice == 4) {
         cout << "Сейчас весна, всё цветёт и становится теплее.";
-    else
+    }
+    else {
         cout << "Такого времени года нет.";
+    }
 
     return 0;
 }
